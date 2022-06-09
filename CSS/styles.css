@@ -1,0 +1,95 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.button-hero {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button-portfolio {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* heder */
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+.color_bue {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth-nav .link {
+  color: #757575;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+/* стилизация main */
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.features {
+}
+
+.features-title {
+  color: #212121;
+}
+
+.title {
+  color: #212121;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.name {
+  color: #212121;
+}
+
+/* footer */
+
+.foot {
+  background-color: #2f303a;
+}
+.color_white {
+  color: #ffffff;
+}
+
+.foot .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.foot .link:hover,
+.foot .link:focus {
+  color: #2196f3;
+}

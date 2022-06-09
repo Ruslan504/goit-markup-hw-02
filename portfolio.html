@@ -10,37 +10,51 @@
   <body>
     <!--верхняя линия-->
     <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+      <nav class="site-nav">
+        <a href="/index.html" class="logo">
+          <span class="color_bue">Web</span>Studio</a
+        >
+        <ul class="list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <!-- authorization-nav -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <h1>Портфолио</h1>
-      <!-- спрятать потом стилями -->
+      <!--   h1 спрятать потом стилями -->
       <!-- навигация портфолио -->
       <nav>
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button type="button" class="button-portfolio">Все</button></li>
+          <li>
+            <button type="button" class="button-portfolio">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Приложения</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Маркетинг</button>
+          </li>
         </ul>
       </nav>
 
       <section>
         <h2>Основные примеры портфолио</h2>
-        <!-- спрятать потом стилями -->
+        <!--  h2 спрятать потом стилями -->
         <ul>
           <li>
             <img
@@ -49,7 +63,7 @@
               width="370"
               height="294"
             />
-            <p>Технокряк</p>
+            <h3 class="title">Технокряк</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -59,7 +73,7 @@
               width="370"
               height="294"
             />
-            <p>Постер New Orlean vs Golden Star</p>
+            <h3 class="title">Постер New Orlean vs Golden Star</h3>
             <p>Дизайн</p>
           </li>
           <li>
@@ -69,7 +83,7 @@
               width="370"
               height="294"
             />
-            <p>Ресторан Seafood</p>
+            <h3 class="title">Ресторан Seafood</h3>
             <p>Приложение</p>
           </li>
           <li>
@@ -79,7 +93,7 @@
               width="370"
               height="294"
             />
-            <p>Проект Prime</p>
+            <h3 class="title">Проект Prime</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -89,7 +103,7 @@
               width="370"
               height="294"
             />
-            <p>Проект Boxes</p>
+            <h3 class="title">Проект Boxes</h3>
             <p>Приложение</p>
           </li>
           <li>
@@ -99,7 +113,7 @@
               width="370"
               height="294"
             />
-            <p>Inspiration has no Borders</p>
+            <h3 class="title">Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -109,7 +123,7 @@
               width="370"
               height="294"
             />
-            <p>Издание Limited Edition</p>
+            <h3 class="title">Издание Limited Edition</h3>
             <p>Дизайн</p>
           </li>
           <li>
@@ -119,7 +133,7 @@
               width="370"
               height="294"
             />
-            <p>Проект LAB</p>
+            <h3 class="title">Проект LAB</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -129,7 +143,7 @@
               width="370"
               height="294"
             />
-            <p>Growing Business</p>
+            <h3 class="title">Growing Business</h3>
             <p>Приложение</p>
           </li>
         </ul>
@@ -137,12 +151,15 @@
     </main>
 
     <!-- футтер -->
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="foot">
+      <a href="./index.html" class="link">
+        <span class="color_bue">Web</span
+        ><span class="color_white">Studio</span></a
+      >
 
-      <p>г. Киев, пр-т Леси Украинки, 26</p>
-      <a href="mailto:info@example.com">info@example.com</a><br />
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <p class="color_white">г. Киев, пр-т Леси Украинки, 26</p>
+      <a href="mailto:info@example.com" class="link">info@example.com</a><br />
+      <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
     </footer>
   </body>
 </html>

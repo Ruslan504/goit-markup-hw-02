@@ -10,61 +10,67 @@
   <body>
     <!--верхняя линия-->
     <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+      <nav class="site-nav">
+        <a href="/index.html" class="logo">
+          <span class="color_bue">Web</span>Studio</a
+        >
+        <ul class="list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <!-- authorization-nav -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <!--шапка-->
       <div>
-        <section>
-          <h1>
+        <section class="hero">
+          <h1 class="hero-title">
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button type="button">Заказать услугу</button>
+          <button type="button" class="button-hero">Заказать услугу</button>
         </section>
       </div>
-      <!-- особенности -->
-      <section>
+      <!-- особенности(features) -->
+      <section class="features">
         <!-- этот заголовок h2 нужно спрятать -->
         <h2>Особенности</h2>
 
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="features-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="features-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
+            <h3 class="features-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="features-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -74,8 +80,8 @@
       </section>
       <!-- чем мы занимаемся -->
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/zhem_zanimaemsa/box1.jpg"
@@ -103,9 +109,9 @@
         </ul>
       </section>
       <!-- наша команда -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team">
+        <h2 class="title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/our_team/img1.jpg"
@@ -113,7 +119,7 @@
               width="270"
               height="260"
             />
-            <p>Игорь Демьяненко</p>
+            <h3 class="name">Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -123,7 +129,7 @@
               width="270"
               height="260"
             />
-            <p>Ольга Репина</p>
+            <h3 class="name">Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -133,7 +139,7 @@
               width="270"
               height="260"
             />
-            <p>Николай Тарасов</p>
+            <h3 class="name">Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -143,19 +149,22 @@
               width="270"
               height="260"
             />
-            <p>Михаил Ермаков</p>
+            <h3 class="name">Михаил Ермаков</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- футтер -->
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="foot">
+      <a href="./index.html" class="link">
+        <span class="color_bue">Web</span
+        ><span class="color_white">Studio</span></a
+      >
 
-      <p>г. Киев, пр-т Леси Украинки, 26</p>
-      <a href="mailto:info@example.com">info@example.com</a><br />
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <p class="color_white">г. Киев, пр-т Леси Украинки, 26</p>
+      <a href="mailto:info@example.com" class="link">info@example.com</a><br />
+      <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
     </footer>
   </body>
 </html>
