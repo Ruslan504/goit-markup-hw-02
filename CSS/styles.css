@@ -1,6 +1,10 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -29,12 +33,22 @@ body {
 .logo {
   color: #000000;
   text-decoration: none;
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.24;
 }
-.color_bue {
+.color-blue {
   color: #2196f3;
 }
 .site-nav .link {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -43,6 +57,11 @@ body {
 
 .auth-nav .link {
   color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -56,16 +75,35 @@ body {
   background-color: #2f303a;
   color: #ffffff;
 }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
 .features {
 }
 
 .features-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
 }
 
 .title {
   color: #212121;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .team {
@@ -74,22 +112,26 @@ body {
 
 .name {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* footer */
 
-.foot {
+.footer {
   background-color: #2f303a;
 }
-.color_white {
+.color-white {
   color: #ffffff;
 }
 
-.foot .link {
+.footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.foot .link:hover,
-.foot .link:focus {
+.footer .link:hover,
+.footer .link:focus {
   color: #2196f3;
 }
