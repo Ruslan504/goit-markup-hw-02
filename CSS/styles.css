@@ -1,6 +1,20 @@
+:root {
+  --body-text-color: #757575;
+  --logo-black-color: #000000;
+  --logo-blue-color: #2196f3;
+  --blue-color: #2196f3;
+  --hover-focus-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --background-footer-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --background-team-color: #f5f4fa;
+  --background-btn-portfolio-color: #f5f4fa;
+}
+
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--white-color);
+  color: var(--body-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -15,23 +29,35 @@ body {
 }
 
 .button-hero {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  cursor: pointer;
 }
+
+/* в макете не укзан ховер и фокус для данной кнопки, 
+но в тз сказано, что все кнопки должны реагировать на ховер и фокус */
+.button-hero:hover,
+.button-hero:focus {
+  color: #757575;
+  background-color: aqua;
+}
+/*  */
+
 .button-portfolio {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--black-color);
+  background-color: var(--background-btn-portfolio-color);
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hover-focus-color);
+  color: var(--white-color);
 }
 
 /* heder */
 .logo {
-  color: #000000;
+  color: var(--logo-black-color);
   text-decoration: none;
   font-family: "Raleway";
 
@@ -39,11 +65,11 @@ body {
   font-size: 26px;
   line-height: 1.24;
 }
-.color-blue {
-  color: #2196f3;
+.color-blue-logo {
+  color: var(--logo-blue-color);
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--black-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -52,11 +78,11 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 .auth-nav .link {
-  color: #757575;
+  color: var(--body-text-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -66,14 +92,14 @@ body {
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 /* стилизация main */
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-footer-color);
+  color: var(--white-color);
 }
 .hero-title {
   font-weight: 900;
@@ -85,11 +111,8 @@ body {
   text-transform: uppercase;
 }
 
-.features {
-}
-
-.features-title {
-  color: #212121;
+.spesials-title {
+  color: var(--black-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -97,8 +120,9 @@ body {
   text-transform: uppercase;
 }
 
-.title {
-  color: #212121;
+.team-title,
+.doing-title {
+  color: var(--black-color);
 
   font-weight: 700;
   font-size: 36px;
@@ -107,11 +131,11 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-team-color);
 }
 
 .name {
-  color: #212121;
+  color: var(--black-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -121,17 +145,17 @@ body {
 /* footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-footer-color);
 }
 .color-white {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
 
 .footer .link:hover,
 .footer .link:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
