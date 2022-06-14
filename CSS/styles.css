@@ -10,6 +10,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --background-team-color: #f5f4fa;
   --background-btn-portfolio-color: #f5f4fa;
+  --button-hero-hover-color: #188ce8;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
 }
 
 .list {
@@ -32,14 +32,19 @@ body {
   color: var(--white-color);
   background-color: var(--blue-color);
   cursor: pointer;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 /* в макете не укзан ховер и фокус для данной кнопки, 
 но в тз сказано, что все кнопки должны реагировать на ховер и фокус */
 .button-hero:hover,
 .button-hero:focus {
-  color: #757575;
-  background-color: aqua;
+  background-color: var(--button-hero-hover-color);
 }
 /*  */
 
@@ -47,6 +52,13 @@ body {
   color: var(--black-color);
   background-color: var(--background-btn-portfolio-color);
   cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button-portfolio:hover,
@@ -119,6 +131,9 @@ body {
 
   text-transform: uppercase;
 }
+.spesials p {
+  line-height: 1.71;
+}
 
 .team-title,
 .doing-title {
@@ -132,6 +147,9 @@ body {
 
 .team {
   background-color: var(--background-team-color);
+}
+.team p {
+  line-height: 1.19;
 }
 
 .name {
@@ -158,4 +176,21 @@ body {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--hover-focus-color);
+}
+.footer p,
+.footer .link {
+  line-height: 1.71;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-color);
+}
+.portfolio p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
